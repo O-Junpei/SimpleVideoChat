@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SimpleVideoChat_Example' do
+  pod 'SimpleVideoChat', :path => '../'
+
+  target 'SimpleVideoChat_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
