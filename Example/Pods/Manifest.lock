@@ -1,15 +1,22 @@
 PODS:
-  - SimpleVideoChat (0.1.0)
+  - SimpleVideoChat (0.1.0):
+    - WebRTC (~> 58.17.16937)
+  - WebRTC (58.17.16937)
 
 DEPENDENCIES:
   - SimpleVideoChat (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WebRTC
 
 EXTERNAL SOURCES:
   SimpleVideoChat:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SimpleVideoChat: 3054562a0ae884d8c4e4e1bbf8f246423336e500
+  SimpleVideoChat: 60acba07bcd84a7d43bf6ca9e2227bd6f2033019
+  WebRTC: 1e9a85bf75509eec44be6478c64e9de65ac82332
 
 PODFILE CHECKSUM: aff947ea038acfbe3db2a72cda1254f25b605382
 

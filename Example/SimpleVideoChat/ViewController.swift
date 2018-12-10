@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SimpleVideoChat
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let view = SimpleVideoChatViewController()
+        view.hello()
     }
 
     override func didReceiveMemoryWarning() {

@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E42CEC2797F3A02A97113D495200DE /* SimpleVideoChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2622C89F7B32B11E6175C0567EEB607 /* SimpleVideoChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AC52EC7F4A979176FFD29677F1CC9DA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8495B80F6033B2E8B029FD8A978E3B /* ReplaceMe.swift */; };
+		00E42CEC2797F3A02A97113D495200DE /* SimpleVideoChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71528AEE9A1CF11BA946E7853BAA11D7 /* SimpleVideoChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BC736A89F743C4CE2F52FC136FE9A26 /* Pods-SimpleVideoChat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FA1D3DE1B9A500A67BDA1087ED30C2 /* Pods-SimpleVideoChat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33BDE37724B5A289D46EFC1A4AC8064B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		3DDA30F896328EEECC215D871D382226 /* Pods-SimpleVideoChat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC4B9242E968DFED66B300B5614EBF4 /* Pods-SimpleVideoChat_Tests-dummy.m */; };
-		7FCD5449CFD208726C787E9FE9B30F39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		9677EFD3A9CA22B8433D42B280F158EB /* SimpleVideoChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8782D1315E9BD61229B0206ADCA392B /* SimpleVideoChat-dummy.m */; };
-		A78B7B0C703180A66D80D497447A4E6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		503DF53A073A1D790E5C28AC66CB7D8F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E061A876F428A8E8C9F0CD173365A7 /* MapKit.framework */; };
+		6762E11188BA68639B18534050BEDAAD /* SimpleVideoChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F73F35716B9B08021EE76EAAF8BB528 /* SimpleVideoChatViewController.swift */; };
+		73D60881BA91D3DBAE04DAF77F9C2290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F2ED3CDAE5D2928456AF5EDDDE4257 /* Foundation.framework */; };
+		7FCD5449CFD208726C787E9FE9B30F39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F2ED3CDAE5D2928456AF5EDDDE4257 /* Foundation.framework */; };
+		A78B7B0C703180A66D80D497447A4E6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F2ED3CDAE5D2928456AF5EDDDE4257 /* Foundation.framework */; };
+		CAC67C8C97E8CA5E1BA038E767813E28 /* SimpleVideoChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31400D6EEA7452059019066951C24B53 /* SimpleVideoChat-dummy.m */; };
+		D6A2D369C9C4A2D434A45C842724EC10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1899DF19920E20BF9EE667803725971 /* UIKit.framework */; };
 		E0ADCF5962348FF8567F1A999A5478AE /* Pods-SimpleVideoChat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6189D88F580378A683CF6659E46875 /* Pods-SimpleVideoChat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF4545449F77A85AB7F55E1A1FF5F9C0 /* Pods-SimpleVideoChat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D818ECE161AD56AD34DD8336097C57 /* Pods-SimpleVideoChat_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -39,39 +41,42 @@
 /* Begin PBXFileReference section */
 		094BD3B921B112FA74578DE4CCBB2025 /* Pods-SimpleVideoChat_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleVideoChat_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0A915A1D2453A32051F57C8FDE33839D /* Pods_SimpleVideoChat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleVideoChat_Tests.framework; path = "Pods-SimpleVideoChat_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A11545F47B42DDA49ED1D9678DD3890 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		17E061A876F428A8E8C9F0CD173365A7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		1B9FCC31063687CF5867679824E4B8CE /* SimpleVideoChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleVideoChat.framework; path = SimpleVideoChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D7C5021AA5F8AD6F711E3467207771 /* Pods-SimpleVideoChat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleVideoChat_Example.modulemap"; sourceTree = "<group>"; };
 		2F4AE845672F28EE5401261CA1F42573 /* Pods-SimpleVideoChat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleVideoChat_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		31400D6EEA7452059019066951C24B53 /* SimpleVideoChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleVideoChat-dummy.m"; sourceTree = "<group>"; };
 		4CFC5A0E6A2D86D55AB0B1EBF0622C4C /* Pods-SimpleVideoChat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleVideoChat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4DBFC49158724447921871AD4C880BDD /* Pods-SimpleVideoChat_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleVideoChat_Tests-resources.sh"; sourceTree = "<group>"; };
 		51C1D08C5A582D7770AFBC49DF7CCE46 /* Pods-SimpleVideoChat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleVideoChat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		52FA1D3DE1B9A500A67BDA1087ED30C2 /* Pods-SimpleVideoChat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleVideoChat_Example-umbrella.h"; sourceTree = "<group>"; };
+		56F2ED3CDAE5D2928456AF5EDDDE4257 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5777A849550C6AB3BF0E6CF8E3CE8817 /* Pods-SimpleVideoChat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleVideoChat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6333BF877C511022C8187696381D4D2A /* Pods_SimpleVideoChat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleVideoChat_Example.framework; path = "Pods-SimpleVideoChat_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71528AEE9A1CF11BA946E7853BAA11D7 /* SimpleVideoChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleVideoChat-umbrella.h"; sourceTree = "<group>"; };
+		71F592F51E38E7CB3C8F0296AC2BA6CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		746B08C40B85367D47F2CB90E855EE70 /* Pods-SimpleVideoChat_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleVideoChat_Example-resources.sh"; sourceTree = "<group>"; };
 		7C4B80A9FB9AD36A60926FDD51ED9887 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D6189D88F580378A683CF6659E46875 /* Pods-SimpleVideoChat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleVideoChat_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7E3710E0C0FB8651BCB6DC3728FD6F3E /* SimpleVideoChat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleVideoChat.xcconfig; sourceTree = "<group>"; };
-		7F98B05DF60C13A6101B076899030418 /* SimpleVideoChat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleVideoChat-prefix.pch"; sourceTree = "<group>"; };
+		853DF77A3AAD586BDDB1D462D6912D78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		86D818ECE161AD56AD34DD8336097C57 /* Pods-SimpleVideoChat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleVideoChat_Example-dummy.m"; sourceTree = "<group>"; };
-		911BA6DB5823E3C5C75ABEB7F9D4DF0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F73F35716B9B08021EE76EAAF8BB528 /* SimpleVideoChatViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleVideoChatViewController.swift; path = SimpleVideoChat/Classes/SimpleVideoChatViewController.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A8495B80F6033B2E8B029FD8A978E3B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SimpleVideoChat/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		A3BE7EC605D3131DB95B422165198ADF /* Pods-SimpleVideoChat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleVideoChat_Tests.modulemap"; sourceTree = "<group>"; };
 		A4A95A04103DE45E600FC6A9BBFD1765 /* Pods-SimpleVideoChat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleVideoChat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ABC4B9242E968DFED66B300B5614EBF4 /* Pods-SimpleVideoChat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleVideoChat_Tests-dummy.m"; sourceTree = "<group>"; };
-		B2622C89F7B32B11E6175C0567EEB607 /* SimpleVideoChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleVideoChat-umbrella.h"; sourceTree = "<group>"; };
-		CC4B37C95C73FBCDA18FCE13586CD22E /* SimpleVideoChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleVideoChat.modulemap; sourceTree = "<group>"; };
-		CCE14CDCA6B2D93F45C1724A6C8A010B /* SimpleVideoChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SimpleVideoChat.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B454F1BBF3E2F5AAFF9E53CF8063479B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B8A41497B3CC34C88114A3F63EF1689A /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		C25444CF24709D0B17ED07E2AA69DCBF /* SimpleVideoChat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleVideoChat-prefix.pch"; sourceTree = "<group>"; };
 		CEE72ACEC70EF6489CF92C8082962917 /* Pods-SimpleVideoChat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleVideoChat_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CF04DFC3ECE136CB9EFAD32C1869C8EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1899DF19920E20BF9EE667803725971 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D7D471064C49FD857CC58ACAE9CB22CC /* SimpleVideoChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SimpleVideoChat.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD308AB21F17100BFED3939C2069DD75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF267B0A6909DAE2FDE5EA32F7D29530 /* Pods-SimpleVideoChat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleVideoChat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E8782D1315E9BD61229B0206ADCA392B /* SimpleVideoChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleVideoChat-dummy.m"; sourceTree = "<group>"; };
+		E1D291721C076C714A7FF084304EECB6 /* SimpleVideoChat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleVideoChat.xcconfig; sourceTree = "<group>"; };
 		F315221A79806AF82C2D148789C97981 /* Pods-SimpleVideoChat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleVideoChat_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FA6BCCB886F8FBCCFC41A163BF8A75DD /* Pods-SimpleVideoChat_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleVideoChat_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FFD61246D3A77E8F97AC959955948ADF /* SimpleVideoChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleVideoChat.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14D51122402C86315FE6235AB23F4BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D60881BA91D3DBAE04DAF77F9C2290 /* Foundation.framework in Frameworks */,
+				503DF53A073A1D790E5C28AC66CB7D8F /* MapKit.framework in Frameworks */,
+				D6A2D369C9C4A2D434A45C842724EC10 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		868F3C24E62B1E46102792794B9E918E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,17 +106,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1BA721388E15DDCDE1F81448CE5AD58 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33BDE37724B5A289D46EFC1A4AC8064B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		081A26C145BE592E39B4EB580D8C17B9 /* WebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				D146F96E9B197A718F272EB86DD49E6B /* Frameworks */,
+			);
+			name = WebRTC;
+			path = WebRTC;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D8C6F2402ECFA465C0F1DA4645473EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1AA3E8566A99AEF2B36FB234BD0BB0F9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,18 +135,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		260EE3F1EA50A3A98E58EEC741F3B799 /* Support Files */ = {
+		1D8C6F2402ECFA465C0F1DA4645473EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				911BA6DB5823E3C5C75ABEB7F9D4DF0B /* Info.plist */,
-				CC4B37C95C73FBCDA18FCE13586CD22E /* SimpleVideoChat.modulemap */,
-				7E3710E0C0FB8651BCB6DC3728FD6F3E /* SimpleVideoChat.xcconfig */,
-				E8782D1315E9BD61229B0206ADCA392B /* SimpleVideoChat-dummy.m */,
-				7F98B05DF60C13A6101B076899030418 /* SimpleVideoChat-prefix.pch */,
-				B2622C89F7B32B11E6175C0567EEB607 /* SimpleVideoChat-umbrella.h */,
+				56F2ED3CDAE5D2928456AF5EDDDE4257 /* Foundation.framework */,
+				17E061A876F428A8E8C9F0CD173365A7 /* MapKit.framework */,
+				D1899DF19920E20BF9EE667803725971 /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SimpleVideoChat";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		2B99BFF04F3A3F9EE2E1DB247212D807 /* Products */ = {
@@ -153,33 +173,36 @@
 			path = "Target Support Files/Pods-SimpleVideoChat_Tests";
 			sourceTree = "<group>";
 		};
-		343DF454A62A017365AF98409DB01792 /* SimpleVideoChat */ = {
+		553D6C6A7487897DB51ABAADCD12B623 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9A8495B80F6033B2E8B029FD8A978E3B /* ReplaceMe.swift */,
-				3DA9E791A4C120FBE29FF058D6939896 /* Pod */,
-				260EE3F1EA50A3A98E58EEC741F3B799 /* Support Files */,
-			);
-			name = SimpleVideoChat;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3DA9E791A4C120FBE29FF058D6939896 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1A11545F47B42DDA49ED1D9678DD3890 /* LICENSE */,
-				CF04DFC3ECE136CB9EFAD32C1869C8EF /* README.md */,
-				CCE14CDCA6B2D93F45C1724A6C8A010B /* SimpleVideoChat.podspec */,
+				B454F1BBF3E2F5AAFF9E53CF8063479B /* LICENSE */,
+				853DF77A3AAD586BDDB1D462D6912D78 /* README.md */,
+				D7D471064C49FD857CC58ACAE9CB22CC /* SimpleVideoChat.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		5A399B87F48F4B9FCAB2DD7A41455E49 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				081A26C145BE592E39B4EB580D8C17B9 /* WebRTC */,
 			);
-			name = iOS;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C804F1AEA2798D2849787E897F34473 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71F592F51E38E7CB3C8F0296AC2BA6CE /* Info.plist */,
+				FFD61246D3A77E8F97AC959955948ADF /* SimpleVideoChat.modulemap */,
+				E1D291721C076C714A7FF084304EECB6 /* SimpleVideoChat.xcconfig */,
+				31400D6EEA7452059019066951C24B53 /* SimpleVideoChat-dummy.m */,
+				C25444CF24709D0B17ED07E2AA69DCBF /* SimpleVideoChat-prefix.pch */,
+				71528AEE9A1CF11BA946E7853BAA11D7 /* SimpleVideoChat-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimpleVideoChat";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -187,26 +210,38 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				D0523B47947DF56C8D08404CB53F12CB /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				5A399B87F48F4B9FCAB2DD7A41455E49 /* Pods */,
 				2B99BFF04F3A3F9EE2E1DB247212D807 /* Products */,
 				1AA3E8566A99AEF2B36FB234BD0BB0F9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		AC93C9EE66748D2443989B75CAEE3627 /* SimpleVideoChat */ = {
 			isa = PBXGroup;
 			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
+				8F73F35716B9B08021EE76EAAF8BB528 /* SimpleVideoChatViewController.swift */,
+				553D6C6A7487897DB51ABAADCD12B623 /* Pod */,
+				6C804F1AEA2798D2849787E897F34473 /* Support Files */,
 			);
-			name = Frameworks;
+			name = SimpleVideoChat;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D0523B47947DF56C8D08404CB53F12CB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				343DF454A62A017365AF98409DB01792 /* SimpleVideoChat */,
+				AC93C9EE66748D2443989B75CAEE3627 /* SimpleVideoChat */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D146F96E9B197A718F272EB86DD49E6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A41497B3CC34C88114A3F63EF1689A /* WebRTC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DE66B58B1B56844321B92A292C47F792 /* Pods-SimpleVideoChat_Example */ = {
@@ -262,8 +297,8 @@
 			buildConfigurationList = 099CA60D4B4F7DDF9AA8801F251111C5 /* Build configuration list for PBXNativeTarget "SimpleVideoChat" */;
 			buildPhases = (
 				EBADE2E3BD5917C77F54C29385F5E39F /* Headers */,
-				CFA81977CC0EB0976FCBC35900E5B4FA /* Sources */,
-				C1BA721388E15DDCDE1F81448CE5AD58 /* Frameworks */,
+				BF6EDBA7298EF377A23683CFC484B5E1 /* Sources */,
+				14D51122402C86315FE6235AB23F4BB9 /* Frameworks */,
 				6A1F6118926FCB6625D1EAE8759A6324 /* Resources */,
 			);
 			buildRules = (
@@ -374,12 +409,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFA81977CC0EB0976FCBC35900E5B4FA /* Sources */ = {
+		BF6EDBA7298EF377A23683CFC484B5E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AC52EC7F4A979176FFD29677F1CC9DA /* ReplaceMe.swift in Sources */,
-				9677EFD3A9CA22B8433D42B280F158EB /* SimpleVideoChat-dummy.m in Sources */,
+				CAC67C8C97E8CA5E1BA038E767813E28 /* SimpleVideoChat-dummy.m in Sources */,
+				6762E11188BA68639B18534050BEDAAD /* SimpleVideoChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +479,7 @@
 		};
 		35772638FAD6980719AC9952C439940F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E3710E0C0FB8651BCB6DC3728FD6F3E /* SimpleVideoChat.xcconfig */;
+			baseConfigurationReference = E1D291721C076C714A7FF084304EECB6 /* SimpleVideoChat.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -603,7 +638,7 @@
 		};
 		5DEBAB0203FCA7191C0567250C0BB227 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E3710E0C0FB8651BCB6DC3728FD6F3E /* SimpleVideoChat.xcconfig */;
+			baseConfigurationReference = E1D291721C076C714A7FF084304EECB6 /* SimpleVideoChat.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

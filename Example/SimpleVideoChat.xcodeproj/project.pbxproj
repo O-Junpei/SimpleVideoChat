@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		364E7579C115BA8A806AE05C /* Pods-SimpleVideoChat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVideoChat_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVideoChat_Example/Pods-SimpleVideoChat_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3FB3C1A184762B00950ECFC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3FB3C1A184762B00950ECFC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5EC956D12578D0288471B2A8 /* Pods-SimpleVideoChat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVideoChat_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVideoChat_Tests/Pods-SimpleVideoChat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SimpleVideoChat_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVideoChat_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		9FDC2E31D833E038339D54C2 /* Pods-SimpleVideoChat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVideoChat_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVideoChat_Example/Pods-SimpleVideoChat_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AA92F2F11444715B173FCD94 /* Pods_SimpleVideoChat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleVideoChat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C99D6DABB6DB7456595828 /* Pods-SimpleVideoChat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVideoChat_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVideoChat_Tests/Pods-SimpleVideoChat_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CC873FDF07173A229A2AF8E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F279CBB25C6F58DC41B3DE2C /* SimpleVideoChat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SimpleVideoChat.podspec; path = ../SimpleVideoChat.podspec; sourceTree = "<group>"; };
+		CC873FDF07173A229A2AF8E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F279CBB25C6F58DC41B3DE2C /* SimpleVideoChat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SimpleVideoChat.podspec; path = ../SimpleVideoChat.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,12 +293,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleVideoChat_Example/Pods-SimpleVideoChat_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SimpleVideoChat/SimpleVideoChat.framework",
+				"${PODS_ROOT}/WebRTC/WebRTC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleVideoChat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

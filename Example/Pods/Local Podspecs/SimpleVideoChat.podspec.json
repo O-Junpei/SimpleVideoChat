@@ -18,5 +18,14 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SimpleVideoChat/Classes/**/*"
+  "source_files": "SimpleVideoChat/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "WebRTC": [
+      "~> 58.17.16937"
+    ]
+  }
 }
