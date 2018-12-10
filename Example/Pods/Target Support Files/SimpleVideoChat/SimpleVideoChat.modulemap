@@ -1,0 +1,6 @@
+framework module SimpleVideoChat {
+  umbrella header "SimpleVideoChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SimpleVideoChat (0.1.0)
+
+DEPENDENCIES:
+  - SimpleVideoChat (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleVideoChat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleVideoChat: 3054562a0ae884d8c4e4e1bbf8f246423336e500
+
+PODFILE CHECKSUM: aff947ea038acfbe3db2a72cda1254f25b605382
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,22 @@
+{
+  "name": "SimpleVideoChat",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleVideoChat.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/junpei ono/SimpleVideoChat",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "junpei ono": "snorlax.chemist.and.jazz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/junpei ono/SimpleVideoChat.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SimpleVideoChat/Classes/**/*"
+}
