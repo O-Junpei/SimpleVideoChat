@@ -26,6 +26,12 @@
   "dependencies": {
     "WebRTC": [
       "~> 58.17.16937"
+    ],
+    "Starscream": [
+      "~> 2.0.4"
+    ],
+    "SwiftyJSON": [
+      "~> 3.1.4"
     ]
   }
 }

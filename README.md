@@ -20,6 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'SimpleVideoChat'
 ```
 
+Privacy - Microphone Usage Description
+Privacy - Camera Usage Description
+
 ## Author
 
 junpei ono, snorlax.chemist.and.jazz@gmail.com

@@ -1,6 +1,10 @@
 PODS:
   - SimpleVideoChat (0.1.0):
+    - Starscream (~> 2.0.4)
+    - SwiftyJSON (~> 3.1.4)
     - WebRTC (~> 58.17.16937)
+  - Starscream (2.0.4)
+  - SwiftyJSON (3.1.4)
   - WebRTC (58.17.16937)
 
 DEPENDENCIES:
@@ -8,6 +12,8 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Starscream
+    - SwiftyJSON
     - WebRTC
 
 EXTERNAL SOURCES:
@@ -15,7 +21,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SimpleVideoChat: 60acba07bcd84a7d43bf6ca9e2227bd6f2033019
+  SimpleVideoChat: a5d322b1006631bcc5f578f0a9e83eb91150139f
+  Starscream: df5974ee928b157c8eda8af8de7c620276b7dfcc
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   WebRTC: 1e9a85bf75509eec44be6478c64e9de65ac82332
 
 PODFILE CHECKSUM: aff947ea038acfbe3db2a72cda1254f25b605382
